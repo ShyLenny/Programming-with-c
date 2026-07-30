@@ -1,21 +1,20 @@
+# Build output
+build/
+
 # Executables
 *.exe
 
 # Object files
-*.obj
 *.o
+*.obj
 
 # Debug files
 *.pdb
 *.ilk
 
-# Visual Studio
-.vs/
-*.VC.db
+# VS Code (keep only shared project settings)
+.vscode/*.log
 
-# Build folders
-build/
-bin/
-
-# macOS
+# OS files
 .DS_Store
+Thumbs.db
