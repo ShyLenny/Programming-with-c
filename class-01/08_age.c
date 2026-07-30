@@ -13,7 +13,10 @@ int main()
     scanf("%d %d %d", &cDay, &cMonth, &cYear);
 
     age = cYear - bYear;
-
+     if (cMonth < bMonth || (cMonth == bMonth && cDay < bDay))
+    {
+        age--;
+    }
     printf("Age = %d years", age);
 
     return 0;
